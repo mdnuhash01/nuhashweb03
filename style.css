@@ -1,0 +1,484 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Della+Respira&display=swap');
+
+
+.faka{
+    padding: 0px 100px;
+}
+
+body{
+    margin: 0px;
+    font-family: "Poppins", sans-serif;
+
+}
+.mainweb{
+    max-width: 1440px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* 1st page start */
+
+#headh{
+    font-weight: bold;
+    font-size: 22px;
+    color: #3E3E3E;
+}
+
+
+#head{
+    padding: 20px 100px;
+    
+    
+}
+
+.slh1{
+    font-size: 48px;
+    font-weight: 600;
+    color: white;
+    line-height: 120%;
+}
+.slp{
+    font-weight: 300;
+    font-size: 16px;
+    color: white;
+}
+
+
+.btn1:hover{
+     background-color: transparent;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 8px 30px;
+    border-radius: 5px;
+    border: 2px solid #3F87F5;
+    font-family: "Poppins", sans-serif;
+
+
+
+
+}
+.btn1{
+    background-color: white;
+    color: #3F87F5;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 8px 30px;
+    border-radius: 5px;
+    border: 2px solid white;
+    font-family: "Poppins", sans-serif;
+}
+#sls{
+    margin-bottom: 30px;
+}
+
+/* <!-- 2nd page start --> */
+
+
+.halfwidth{
+    width: 50%;
+}
+.contmain{
+    display: flex;
+    align-items: center;
+    margin-top: 100px;
+    gap: 20px;
+    
+}
+.leftimg{
+    width: 100%;
+    height: auto;
+}
+
+.rightside h3{
+    font-size: 38px;
+    font-weight: bold;
+    color: black;
+}
+.rightside p{
+    font-size: 16px;
+    font-weight: bold;
+    color: #3E3E3E;
+}
+.btn2{
+    display: flex;
+    gap: 10px;
+    padding: 10px 22px;
+    border-radius: 5px;
+    background-color: #3F87F5;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    border: 2px solid #3F87F5;
+    font-family: "Poppins", sans-serif;
+}
+.btn2:hover{
+    background-color: transparent;
+    border: 2px solid #3F87F5;
+    color: #3F87F5;
+}
+.btn3{
+    display: flex;
+    gap: 10px;
+    padding: 10px 22px;
+    border-radius: 5px;
+    background-color: #3F87F5;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    border: 2px solid #3F87F5;
+    font-family: "Poppins", sans-serif;
+    display: none;
+}
+
+
+/* 3rd page start */
+
+
+.rdmain h1{
+
+    font-size: 38px;
+    font-weight: 600;
+}
+.rdmain{
+    margin-top: 100px;
+    text-align: center;
+}
+.card1{
+    height: 474px;
+    width: 293px;
+    padding: 50px 30px;
+    margin-top: 50px;
+}
+.card2{
+    height: 474px;
+    width: 293px;
+    background-color: #3F87F5;
+    padding: 50px 30px;
+    border-radius: 24px;
+    box-shadow: 0px 10px 15px #3f88f58c;
+    position: relative;
+}
+.hot{
+    
+    position: absolute;
+    top: -15px;
+    right: 22px;
+
+}
+.hot button{
+    background-color: red;
+    color: white;
+    border-radius: 25px;
+    padding: 3px 15px;
+    border: none;
+}
+    .features {
+      list-style: none;
+      padding: 0;
+    }
+    .features2 {
+      list-style: none;
+      padding: 0;
+    }
+     .features li::before {
+      content: url("./Images/check-circle-1.png");
+      color: #b191f9;
+      margin-right: 10px;
+      margin-left: 0px;
+    }
+    .features2 li::before {
+      content: url("./Images/check-circle-2.png");
+      color: #ffffff;
+      margin-right: 10px;
+      margin-left: 0px;
+    }
+
+
+    .features li {
+      display: flex;
+      align-items: center;
+      margin-bottom: 10px;
+      color: #848199;
+      font-weight: 500;
+    }
+    .features2 li {
+      display: flex;
+      align-items: center;
+      margin-bottom: 10px;
+      color: #ffffff;
+      font-weight: 500;
+    }
+    .card1head{
+        text-align: left;
+    }
+    .card2head{
+        text-align: left;
+        color:white;
+    }
+    .btn4{
+        padding: 13px 60px;
+        border-radius: 24px;
+        background-color: #f496d21a;
+        color: #3F87F5;
+        border: 2px solid #f496d21a;
+        font-family: "Poppins", sans-serif;
+        font-weight: bold;
+    }
+    .btn4:hover{
+        background-color: transparent;
+        border: 2px solid #3F87F5;
+    }
+    .btn5{
+        padding: 13px 60px;
+        border-radius: 24px;
+        background-color: #ffffff;
+        color: #3F87F5;
+        border: 2px solid #ffffff;
+        font-family: "Poppins", sans-serif;
+        font-weight: bold;
+    }
+    .btn5:hover{
+        background-color: transparent;
+        border: 2px solid white;
+        color: white;
+
+    }
+    .cardmain{
+        display: grid;
+        grid-template-columns: auto auto auto auto;
+        margin-top: 100px;
+        
+    }
+    /* <!-- 4th page start --> */
+
+
+.clientmain h1{
+    font-size: 38px;
+    font-weight: 600;
+}
+.clientmain{
+    margin-top: 100px;
+    text-align: center;
+}
+
+.box1{
+    padding: 20px 53px;
+    width: 320px;
+    height: 323px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.24);
+    border-top-right-radius: 40px;
+    border-bottom-left-radius: 40px;
+}
+.box1 h6{
+    font-size: 14px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.cl1{
+    border-radius: 50%;
+}
+.box1cont{
+    font-size: 16px;
+    font-weight: 200;
+}
+.boxmain{
+    display:grid;
+    grid-template-columns: auto auto auto;
+    justify-items: center;
+    margin-top: 100px;
+}
+
+/* page 5 start */
+
+.qstmain h1{
+    font-size: 38px;
+    font-weight: 600;
+}
+.qstmain{
+   margin-top: 100px;
+    text-align: center; 
+}
+.cutting{
+    width: 50%;
+}
+#qstcont{
+    font-size: 14px;
+    font-weight: 300;
+    text-align: justify;
+}
+#qstm{
+    font-weight: bold;
+}
+.qst{
+    display: flex;
+    align-content: center;
+    align-items: center;
+    margin-top: 100px;
+}
+.faka1{
+    padding: 0px 30px;
+}
+
+.footmain{
+    background-color: black;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    padding: 20px 165px;
+    align-items: center;
+}
+.footcont{
+    font-size: 14px;
+    color: gray;
+}
+.myname{
+    text-align: center;
+    font-weight: bold;
+    font-size: 14px;
+    color: white;
+      font-family: "Della Respira", serif;
+}
+
+
+
+
+
+
+@media screen and (max-width:1181px) {
+    .faka{
+        padding: 0px 50px;
+    }
+    #head{
+        padding: 20px 50px;
+    }
+    .cardmain{
+        grid-template-columns: auto auto;
+        justify-items: center;
+    }
+    .card2{
+        margin-top: 85px;
+   
+    
+}
+}
+@media screen and (max-width:1020px) {
+    .qst{
+        flex-direction: column-reverse;
+    }
+    .chobi1{
+        width: 100%;
+        margin-bottom: 30px;
+    }
+    .cutting{
+        width: 100%;
+    }
+    .accord {
+        box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.24);
+    }
+
+    .footmain{
+        padding: 20px 50px;
+    }
+}
+
+
+
+@media screen and (max-width:960px) {
+   .rightside p{
+    font-size: 12px;
+   }
+     .boxmain{
+        grid-template-columns: auto auto;
+        justify-content: space-evenly;
+        gap: 20px;
+}
+    
+}
+@media screen and (max-width:757px) {
+   .faka{
+    padding: 0px 20px;
+   }
+   #head{
+    padding: 20px 8px;
+   }
+   .btn2{
+    font-size: 12px;
+   }
+   .rightside h3{
+    font-size: 30px;
+   }
+   .rightside p{
+    font-size: 10px;
+   }
+  
+}
+@media screen and (max-width:657px) {
+
+    .boxmain{
+        grid-template-columns: auto;
+}
+}
+@media screen and (max-width:584px) {
+    .cardmain{
+        grid-template-columns: auto;
+    }
+
+}
+
+@media screen and (max-width:562px) {
+   .contmain{
+    flex-direction: column-reverse;
+   }
+   .rightside{
+    width: 100%;
+   }
+   .leftside{
+    width: 100%;
+   }
+   .btn2{
+    display: none;
+   }
+   .btn3{
+    display: block;
+    display: flex;
+    font-size: 12px;
+   }
+   .btn3:hover{
+    background-color: transparent;
+    border: 2px solid #3F87F5;
+    color: #3F87F5;
+   }
+   .btn3parent{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+   }
+   #headh{
+    font-size: 16px;
+   }
+   .footmain{
+    flex-direction: column;
+   }
+   .myname{
+    margin-top: 10px;
+   }
+   
+}
+@media screen and (max-width:372px) {
+    #headh{
+        font-size: 14px;
+    }
+}
+@media screen and (max-width:331px) {
+   #head{
+    padding: 20px 2px;
+
+   }
+   .faka{
+    padding: 0px 10px;
+   }
+}
+
